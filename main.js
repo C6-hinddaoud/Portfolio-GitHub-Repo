@@ -5,6 +5,11 @@ const lodAbout=()=>{
      $("#abputDiv").show();
      $('.projectClass').hide()
      $('.gallery1').hide()
+     $('.gallery2').hide()
+     $('.gallery3').hide()
+     $('.gallery4').hide()
+     $('.gallery5').hide()
+     $('.gallery6').hide()
 }
 lodAbout()
 $("#liskill").click(function(){
@@ -12,6 +17,11 @@ $("#liskill").click(function(){
      $("#abputDiv").hide();
      $('.projectClass').hide()
      $('.gallery1').hide()
+     $('.gallery2').hide()
+     $('.gallery3').hide()
+     $('.gallery4').hide()
+     $('.gallery5').hide()
+     $('.gallery6').hide()
   });
 
 
@@ -21,6 +31,11 @@ $("#liskill").click(function(){
      $("#abputDiv").show();
      $('.projectClass').hide()
      $('.gallery1').hide()
+     $('.gallery2').hide()
+     $('.gallery3').hide()
+     $('.gallery4').hide()
+     $('.gallery5').hide()
+     $('.gallery6').hide()
   });
 
   $(".hospital").click(function(){
@@ -28,6 +43,11 @@ $("#liskill").click(function(){
     $("#abputDiv").hide();
     $('.projectClass').hide()
     $('.gallery1').show()
+    $('.gallery2').hide()
+    $('.gallery3').hide()
+    $('.gallery4').hide()
+    $('.gallery5').hide()
+    $('.gallery6').hide()
    
  });
   
@@ -36,8 +56,72 @@ $("#liskill").click(function(){
     $("#abputDiv").hide();
     $('.projectClass').show()
     $('.gallery1').hide()
+    $('.gallery2').hide()
+    $('.gallery3').hide()
+    $('.gallery4').hide()
+    $('.gallery5').hide()
+    $('.gallery6').hide()
  });
   
+ $(".book").click(function(){
+   $("#mainSkillDiv").hide();
+    $("#abputDiv").hide();
+    $('.projectClass').hide()
+    $('.gallery1').hide()
+    $('.gallery2').show()
+    $('.gallery3').hide()
+    $('.gallery4').hide()
+    $('.gallery5').hide()
+    $('.gallery6').hide()
+   
+ });
+
+ $(".game").click(function(){
+   $("#mainSkillDiv").hide();
+    $("#abputDiv").hide();
+    $('.projectClass').hide()
+    $('.gallery1').hide()
+    $('.gallery2').hide()
+    $('.gallery3').show()
+    $('.gallery4').hide()
+    $('.gallery5').hide()
+    $('.gallery6').hide()
+ });
+
+ $(".food").click(function(){
+   $("#mainSkillDiv").hide();
+    $("#abputDiv").hide();
+    $('.projectClass').hide()
+    $('.gallery1').hide()
+    $('.gallery2').hide()
+    $('.gallery3').hide()
+    $('.gallery4').show()
+    $('.gallery5').hide()
+    $('.gallery6').hide()
+ });
+
+ $(".emp").click(function(){
+   $("#mainSkillDiv").hide();
+    $("#abputDiv").hide();
+    $('.projectClass').hide()
+    $('.gallery1').hide()
+    $('.gallery2').hide()
+    $('.gallery3').hide()
+    $('.gallery4').hide()
+    $('.gallery5').show()
+    $('.gallery6').hide()
+ });
+ $(".art").click(function(){
+   $("#mainSkillDiv").hide();
+    $("#abputDiv").hide();
+    $('.projectClass').hide()
+    $('.gallery1').hide()
+    $('.gallery2').hide()
+    $('.gallery3').hide()
+    $('.gallery4').hide()
+    $('.gallery5').hide()
+    $('.gallery6').show()
+ });
 
  //Drag and drop Sortable.js
 new Sortable(gallery, {
