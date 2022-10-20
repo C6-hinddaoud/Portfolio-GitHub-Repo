@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <!-- CSS only -->
+   
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hind </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+  
     <div class="row contienerDiv" >
     <div class="col-2 d-flex flex-column flex-shrink-0 p-3 text-white bg-dark  mainSidPare" >
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -20,33 +23,33 @@
         </a>
         <span class="fs-4 logo">HI I`m Hind Daoud</span>
         <hr>
-        <ul class="pagination nav nav-pills flex-column mb-auto">
-          <li  class="page-item nav-item">
-            <a href="#abputDiv" class="page-link nav-link active" aria-current="page">
+        <ul class=" nav nav-pills flex-column mb-auto">
+          <li id="liAboutDiv" class="">
+            <a href="#abputDiv" class=" nav-link active" aria-current="page">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
               About
             </a>
           </li>
-          <li class="page-item">
-            <a href="#" class="page-link nav-link text-white">
+          <li id="liskill" class="">
+            <a href="#" class="nav-link text-white">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-              Dashboard
+             skills
             </a>
           </li>
-          <li class="page-item">
-            <a href="#skillDiv" class="page-link nav-link text-white">
+          <li class="">
+            <a href="" class=" nav-link text-white">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-             
+             h
             </a>
           </li>
-          <li class="page-item">
-            <a href="#" class="page-link nav-link text-white">
+          <li class="">
+            <a href="#" class=" nav-link text-white">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
               Products
             </a>
           </li>
-          <li class="page-item">
-            <a href="#" class="page-link nav-link text-white">
+          <li class="">
+            <a href="#" class=" nav-link text-white">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
               Customers
             </a>
@@ -75,57 +78,41 @@
 
 
 
-<div class="col-12" id="abputDiv">rasha
-      
-  <div class="skills-charts">
-
-    <div id="myCanvasContainer">
-        <canvas width="500" height="500" id="myCanvas">
-            <ul>
-                <li>
-                    <a data-weight="25" href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
-                </li>
-                <li><a data-weight="25" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS</a></li>
-                <li><a data-weight="25" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">ES5/ES6</a></li>
-                <li><a data-weight="25" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">TypeScript</a></li>
-                <li><a data-weight="24" href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">REST</a></li>
-                <li><a data-weight="14" href="https://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a></li>
-                <li><a data-weight="13" href="https://en.wikipedia.org/wiki/XML" target="_blank">GSAP</a></li>
-                <li><a data-weight="14" href="https://en.wikipedia.org/wiki/AngularJS" target="_blank">Angular</a></li>
-                <li><a data-weight="26" href="https://en.wikipedia.org/wiki/WordPress" target="_blank">Wordpress</a></li>
-                <li><a data-weight="26" href="https://en.wikipedia.org/wiki/Shopify" target="_blank">Shopify</a></li>
-
-                <li><a data-weight="21" href="https://en.wikipedia.org/wiki/Node.js" target="_blank">Node JS</a></li>
-                <li><a data-weight="17" href="https://en.wikipedia.org/wiki/Git" target="_blank">Git</a></li>
-                <li><a data-weight="17" href="" target="_blank">_lodash</a></li>
-                <li><a data-weight="23" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap</a></li>
-                <li><a data-weight="15" href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank">SASS</a></li>
-                <li><a data-weight="24" href="https://reactjs.org/" target="_blank">ReactJS</a></li>
-                <li><a data-weight="12" href="https://en.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a></li>
-                <li><a data-weight="19" href="http://mongoosejs.com/" target="_blank">SQl</a></li>
-                <li><a data-weight="19" href="http://gulpjs.com/" target="_blank">Gulp</a></li>
-                <li><a data-weight="19" href="https://www.npmjs.com/" target="_blank">npm</a></li>
-                <li><a data-weight="19" href="https://en.wikipedia.org/wiki/BEM" target="_blank">BEM</a></li>
-
-            </ul>
-        </canvas>
+<div class="col-12 row maimaboutDIVshow container" id="abputDiv">
+  <div class="col-4">
+    <img class="aboutimge" src="./images/h3.png">
+  </div>
+  <div class="col-8 textAbout">
+  <h1>Hind Daoud</h1>
+  <p>I love programming in general, I have the ability to solve problems, and I love to constantly learn new things
+  </p>
+  <p>I studied programming for five months 
+    at Meraki Academy.
+    </p>
+    <p>
+      Bachelor's degree in Computer Engineering 
+      Al-Balqa Applied University Faculty 
+      of Engineering Technology</p>
     </div>
+  </div>
+  
 
-    <div class="clear"></div>
-</div>
-</div>
 
         <!-- about -->
-    <div class="col-12" id="#skillDiv"> 
+    <!-- <div class="col-12" id="skillDiv">  -->
       
     <!-- skills -->
-    <div class="row">
-      <div class="col-4 skillClass">
-     <span>skills</span>
+    <div id="mainSkillDiv" class="row">
+      <div class=" col-4 skillClass">
+     <span class="skillspan">skills</span>
+     <br>
+     <p class="skillsp">I Graduated from Al-Balqa Applied University with a Bachelor's degree in Computer Engineering, I have done several projects on C Sharp using ASP.NET and JavaScript using RACT, I used HTML, CSS, React Dome, Node.js, and a lot of libraries.</p>
+<p class="skillsp">I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, and coding interactive layouts.</p>
 
+  <p class="skillsp">I also have a full-stack developer.</p>
       </div>
-      <div id="carouselExampleCaptions" class="carousel slide col-8" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+      <div id="carouselExampleCaptions" class="carousel slide col-8 " data-bs-ride="carousel">
+        <div class=" carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -135,8 +122,8 @@
 
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" class="active" aria-current="true" aria-label="Slide 7"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div class="matcskkil carousel-inner">
+          <div class="matcskkil carousel-item active">
             <img src="https://res.cloudinary.com/ddsrkj1dx/image/upload/v1666119356/c_td1zik.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <!-- <h5>First slide label</h5>
@@ -205,10 +192,10 @@
     
     <!-- skills -->
     
-    </div>
+    
+  <!-- </div> -->
 
-
-
+</div>
 
   </div>
     </div>

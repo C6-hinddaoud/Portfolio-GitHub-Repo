@@ -1,5 +1,5 @@
 .mainSidPare{
-height: 1000px;
+height: 750px;
 
 }
 /* .imglogohind{
@@ -12,21 +12,82 @@ display: flex;
 flex-wrap: wrap;
 
 }
+a:hover{
+    font-size: large;
+    color: blue;
+}
+.aboutimge{
+    /* height: 500px; */
+    width: 100%;
+    background-color: silver;
+    width: 100%;
+    background-color: silver;
+    margin-left: 7%;
+    border-radius: 29%;
+    height: 300px;
+}
+body,h1,h2,h3,h4,h5,h6,p {
+    
+    color: white;
+    font-family: "Raleway", sans-serif}
 #skillDiv{
 
     /* display: block; */
-    height: 500px;
+    height: 600px;
 
-    background-color: rgb(184, 158, 158);
+    /* background-color: rgb(184, 158, 158); */
 }
 .carousel-item img{
 width: 100%;
-height: 100%;
+height: 500px;
+
 
 }
+.logo{
+text-align: center;
+
+}
+/* .matcskkil{
+    height: 800px;
+} */
+/* .mainSidPare{
+    position:fixed;
+    left: 0px ;
+    margin-right: 10px;
+} */
 
 .skillClass{
-border: 3px rgb(53, 56, 2) solid;
+/* border: 3px rgb(53, 56, 2) solid; */
 padding: 2%;
 align-items: center;
+background-color: white;
+}
+
+
+.skillspan{
+    text-align: center;
+font-size: 200%;
+margin-left: 35%;
+color: black;
+}
+.skillsp{
+    color: black;
+}
+#abputDiv{
+    background-image: url("https://i.stack.imgur.com/jRLAt.png");
+    background-size: 100% 100%;
+}
+
+
+.maimaboutDIVshow{
+
+    padding-top: 200px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: silver;
+    height: 800px;
+
+}
+.textAbout{
+    padding-left: 5%;
 }
