@@ -124,10 +124,10 @@ $("#liskill").click(function(){
  });
 
  //Drag and drop Sortable.js
-new Sortable(gallery, {
-   swapThreshold: 1,
-   animation: 150
- });
+// new Sortable(gallery, {
+//    swapThreshold: 1,
+//    animation: 150
+//  });
  
  //Add random heart
  function heart_loop() {
@@ -144,4 +144,18 @@ new Sortable(gallery, {
  }
  
  heart_loop();
- 
+
+ const resume=()=>{
+  console.log("klj")
+  var link = document.createElement('a');
+ link.href = "./images/Hind_Cv (3).pdf"
+ link.download = 'file.pdf';
+ link.dispatchEvent(new MouseEvent('click'));
+
+}
+$(".btndonloadresume").click(function(){
+  console.log("ji")
+  resume()
+   })
+
+   
