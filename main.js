@@ -146,7 +146,7 @@ $("#liskill").click(function(){
  heart_loop();
 
  const resume=()=>{
-  console.log("klj")
+ 
   var link = document.createElement('a');
  link.href = "./images/Hind_Cv (3).pdf"
  link.download = 'file.pdf';
@@ -154,7 +154,7 @@ $("#liskill").click(function(){
 
 }
 $(".btndonloadresume").click(function(){
-  console.log("ji")
+ 
   resume()
    })
 
