@@ -148,7 +148,7 @@ $("#liskill").click(function(){
  const resume=()=>{
  
   var link = document.createElement('a');
- link.href = "./images/Hind_Cv (3).pdf"
+ link.href = "./images/Hind_Cv (10).pdf"
  link.download = 'file.pdf';
  link.dispatchEvent(new MouseEvent('click'));
 
