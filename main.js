@@ -149,7 +149,7 @@ $("#liskill").click(function(){
  
   var link = document.createElement('a');
  link.href = "./images/Hind_Cv (10).pdf"
- link.download = 'file.pdf';
+ link.download = 'hindDaud_CV.pdf';
  link.dispatchEvent(new MouseEvent('click'));
 
 }
